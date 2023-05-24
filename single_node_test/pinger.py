@@ -25,7 +25,7 @@ app = FastAPI()
     user_config={
         "target_url": DEFAULT_TARGET_URL,
         "bearer_token": DEFAULT_BEARER_TOKEN,
-        "default_on": 0,  # 1 to enable, 0 to disable
+        "default_on": 1,  # 1 to enable, 0 to disable
     },
 )
 @serve.ingress(app)
